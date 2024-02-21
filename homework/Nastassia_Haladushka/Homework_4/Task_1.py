@@ -1,11 +1,11 @@
 # Создать словарь (и сохранить его в переменную my_dict) с такими ключами: ‘tuple’, ‘list’, ‘dict’, ‘set’.
 
 my_dict = {
-    'tuple': (2, 4, 'love', True, 7), 
-    'list': [1, 5, 5, 3, None], 
-    'dict': {'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5'}, 
+    'tuple': (2, 4, 'love', True, 7),
+    'list': [1, 5, 5, 3, None],
+    'dict': {'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5'},
     'set': {2, 5, 7, 1, 8}
-    }
+            }
 
 # ‘tuple’: вывести на экран последний элемент:
 
