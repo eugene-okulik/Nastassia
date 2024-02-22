@@ -21,7 +21,7 @@ my_dict['list'].pop(1)
 
 # ‘dict’: добавить элемент с ключом ('i am a tuple',) и любым значением, удалить какой-нибудь элемент
 
-my_dict['dict'].update({'i am a tuple': '6'})
+my_dict['dict'].update({'i am a tuple': (None, 1, 'text')})
 my_dict['dict'].pop('two')
 
 # ‘set’: добавить новый элемент в множество, удалить элемент из множества
