@@ -18,6 +18,14 @@
 # Нужно сделать так, чтобы строк кода стало как можно меньше,
 # и не было повторений одного и того же.
 
+def sum_results(results):
+    total_sum = 0
+    for result in results:
+        number = int(result.split(':')[-1].strip())
+        total_sum += number + 10
+    return total_sum
+
+
 results = [
     "результат операции: 42",
     "результат операции: 54",
@@ -25,10 +33,4 @@ results = [
     "результат: 2"
 ]
 
-total_sum = 0
-
-for result in results:
-    number = int(result.split(':')[-1].strip())
-    total_sum += number + 10
-
-print("Результат сложения:", total_sum)
+print("Результат сложения:", sum_results(results))
