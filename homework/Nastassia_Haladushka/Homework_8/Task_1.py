@@ -11,7 +11,7 @@
 
 import random
 
-salary = int(input("Введите вашу зарплату: "))
+salary = int(input("Enter your salary: "))
 bonus = random.choice([True, False])
 
 if bonus is True:

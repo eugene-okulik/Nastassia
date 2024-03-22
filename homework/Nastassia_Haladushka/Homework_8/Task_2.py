@@ -26,7 +26,7 @@ for i in range(1, 100001):
     elif i == 100000:
         hundred_thousand = current_number
 
-print("Пятое число Фибоначчи:", five)
-print("Двухсотое число Фибоначчи:", two_hundred)
-print("Тысячное число Фибоначчи:", thousand)
-print("Сто тысячное число Фибоначчи:", hundred_thousand)
+print("Fifth Fibonacci number:", five)
+print("Two hundredth Fibonacci number:", two_hundred)
+print("Thousandth Fibonacci number:", thousand)
+print("One hundred thousandth Fibonacci number:", hundred_thousand)
